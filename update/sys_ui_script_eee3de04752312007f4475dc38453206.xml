@@ -2,9 +2,9 @@
 <record_update table="sys_ui_script">
     <sys_ui_script action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>AngularJS Library</description>
+        <description/>
         <global>false</global>
-        <name>sn_bball.angularjs</name>
+        <name>sn_bball.BBallPlayers</name>
         <script><![CDATA[/*
  AngularJS v1.4.9
  (c) 2010-2015 Google, Inc. http://angularjs.org
@@ -303,21 +303,21 @@ c.$validators.minlength=function(a,b){return c.$isEmpty(b)||b.length>=e}}}}};S.a
 SHORTDAY:"Sun Mon Tue Wed Thu Fri Sat".split(" "),SHORTMONTH:"Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(" "),STANDALONEMONTH:"January February March April May June July August September October November December".split(" "),WEEKENDRANGE:[5,6],fullDate:"EEEE, MMMM d, y",longDate:"MMMM d, y",medium:"MMM d, y h:mm:ss a",mediumDate:"MMM d, y",mediumTime:"h:mm:ss a","short":"M/d/yy h:mm a",shortDate:"M/d/yy",shortTime:"h:mm a"},NUMBER_FORMATS:{CURRENCY_SYM:"$",DECIMAL_SEP:".",GROUP_SEP:",",
 PATTERNS:[{gSize:3,lgSize:3,maxFrac:3,minFrac:0,minInt:1,negPre:"-",negSuf:"",posPre:"",posSuf:""},{gSize:3,lgSize:3,maxFrac:2,minFrac:2,minInt:1,negPre:"-\u00a4",negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",pluralCat:function(a,c){var e=a|0,f=c;w===f&&(f=Math.min(b(a),3));Math.pow(10,f);return 1==e&&0==f?"one":"other"}})}]),A(W).ready(function(){ce(W,zc)}))})(window,document);!window.angular.$$csp().noInlineStyle&&window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 //# sourceMappingURL=angular.min.js.map]]></script>
-        <script_name>angularjs</script_name>
+        <script_name>BBallPlayers</script_name>
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-03-01 16:44:37</sys_created_on>
+        <sys_created_on>2016-05-18 00:07:42</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>0a4c8cdf9f3512005b4e7fc9c42e700c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>sn_bball.angularjs</sys_name>
+        <sys_id>eee3de04752312007f4475dc38453206</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sn_bball.BBallPlayers</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
-        <sys_update_name>sys_ui_script_0a4c8cdf9f3512005b4e7fc9c42e700c</sys_update_name>
+        <sys_update_name>sys_ui_script_eee3de04752312007f4475dc38453206</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-05-18 00:08:39</sys_updated_on>
+        <sys_updated_on>2016-05-18 00:09:03</sys_updated_on>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>
